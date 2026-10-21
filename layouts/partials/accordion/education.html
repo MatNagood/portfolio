@@ -1,0 +1,11 @@
+{{ range hugo.Data.education.list }}
+<div class="mb-3">
+  <p class="mb-0 font-semibold">{{ .degree }}</p>
+  <p class="mb-0 text-gray-600 dark:text-gray-300">{{ .dates }} &middot; {{ .college }}</p>
+  {{ if .thesis_title }}
+  <p class="text-gray-600 dark:text-gray-300 ms-2">
+    Thesis: {{ if .thesis_url }}<a href="{{ .thesis_url }}"><i>{{ .thesis_title }}</i></a>{{ else }}<i>{{ .thesis_title }}</i>{{ end }}
+  </p>
+  {{ end }}
+</div>
+{{ end }}

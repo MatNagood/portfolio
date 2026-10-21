@@ -1,26 +1,37 @@
 {
   "title": "Certifications",
-  "icon": "bi bi-book",
-  "list": [
+  "icon": "bi bi-patch-check",
+  "categories": [
     {
-      "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
-      "org": "Microsoft",
-      "date": "20XX"
+      "name": "Cloud",
+      "icon": "bi bi-cloud",
+      "list": [
+        { "name": "Azure Administrator (AZ-104)", "org": "Microsoft" },
+        { "name": "Azure Fundamentals (AZ-900)", "org": "Microsoft" },
+        { "name": "Azure AI Fundamentals (AI-900)", "org": "Microsoft" }
+      ]
     },
     {
-      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
-      "org": "Microsoft",
-      "date": "20XX"
+      "name": "Sécurité",
+      "icon": "bi bi-shield-lock",
+      "list": [
+        { "name": "Security, Compliance & Identity (SC-900)", "org": "Microsoft" },
+        { "name": "Security+", "org": "CompTIA" }
+      ]
     },
     {
-      "name": "Certification sécurité (SC-900 / Security+...)",
-      "org": "XXX",
-      "date": "20XX"
+      "name": "Réseau",
+      "icon": "bi bi-hdd-network",
+      "list": [
+        { "name": "Network+", "org": "CompTIA" }
+      ]
     },
     {
-      "name": "Certification IA (AI-900 / autre...)",
-      "org": "XXX",
-      "date": "20XX"
+      "name": "Méthodologie",
+      "icon": "bi bi-diagram-3",
+      "list": [
+        { "name": "ITIL® Foundation", "org": "PeopleCert" }
+      ]
     }
   ]
 }

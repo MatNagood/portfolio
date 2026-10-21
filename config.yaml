@@ -2,7 +2,7 @@ baseURL: /
 locale: en-us
 build:
   writeStats: true
-title: aafu theme
+title: "Mathieu // Site personnel"
 # Uncomment below to use aafu as hugo theme. See instructions in README.md
 theme: aafu
 

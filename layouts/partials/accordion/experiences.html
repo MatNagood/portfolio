@@ -1,0 +1,16 @@
+{{ range hugo.Data.experiences.list }}
+<div class="mb-3">
+  <p class="mb-0 font-semibold">{{ .position }}</p>
+  <p class="mb-0 text-gray-600 dark:text-gray-300">
+    {{ .dates | markdownify }} &middot;
+    {{ if .url }}<a href="{{ .url }}">{{ .company }}</a>{{ else }}{{ .company }}{{ end }}
+  </p>
+  {{ if .details }}
+  <ul class="my-2 ms-4 prose prose-stone dark:prose-invert max-w-none list-disc list-outside pl-6">
+    {{ range .details }}
+    <li class="marker:text-gray-700 dark:marker:text-gray-200">{{ . | markdownify }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
+{{ end }}

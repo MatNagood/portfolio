@@ -1,16 +1,16 @@
 {
-  "title": "Projects",
+  "title": "Projets",
   "icon": "bi bi-kanban",
   "list": [
     {
-      "title": "Site CV (Hugo + Terraform + Azure)",
+      "title": "Site Portfolio (Hugo + Terraform + Azure)",
       "url": "#",
       "description": "Site statique généré avec Hugo, déployé en CI/CD GitHub Actions + Azure Static Web Apps, infra provisionnée en Terraform."
     },
     {
-      "title": "Homelab self-hosted",
+      "title": "Serveur auto-hébergé",
       "url": "#",
-      "description": "Serveurs Debian, conteneurs Docker, services auto-hébergés (media stack, monitoring)."
+      "description": "Serveurs Debian, conteneurs Docker, services auto-hébergés : media stack, serveur de fichiers, monitoring (grafana + prometheus)."
     },
     {
       "title": "Cluster Kubernetes (k3s)",
@@ -18,9 +18,9 @@
       "description": "Cluster k3s maison pour pratiquer l'administration Kubernetes (RBAC, Helm, observabilité)."
     },
     {
-      "title": "Automatisation (Bash + Ansible)",
+      "title": "Agent IA Hermès",
       "url": "#",
-      "description": "Playbooks Ansible et scripts bash pour provisionner et maintenir le homelab."
+      "description": "Agent IA déployé sur un Raspberry Pi pour tester des fonctionnalités IA et maintenir le site portfolio."
     }
   ]
 }

@@ -1,10 +1,9 @@
 {
-  "title": "Skills",
+  "title": "Compétences",
   "panelId": "skill-panel",
   "icon": "bi bi-list-check",
   "list": [
     { "skill": "Linux (administration, bash)", "skillrating": 85 },
-    { "skill": "Réseau : WAN, MPLS, SD-WAN", "skillrating": 90 },
     { "skill": "Cloud : Azure, AWS, GCP", "skillrating": 65 },
     { "skill": "Conteneurs : Docker, Kubernetes", "skillrating": 55 },
     { "skill": "Terraform / Infrastructure as Code", "skillrating": 45 },

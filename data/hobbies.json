@@ -2,7 +2,7 @@
   "title": "Hobbies",
   "icon": "bi bi-controller",
   "list": [
-    { "hobby": "Musiques, Lectures, gaming" },
+    { "hobby": "Musiques, Lectures, Gaming" },
     { "hobby": "Homelab / self-hosting" }
   ]
 }
