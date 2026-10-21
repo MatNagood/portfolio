@@ -1,0 +1,26 @@
+{
+  "title": "Certifications",
+  "icon": "bi bi-book",
+  "list": [
+    {
+      "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+      "org": "Microsoft",
+      "date": "20XX"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "org": "Microsoft",
+      "date": "20XX"
+    },
+    {
+      "name": "Certification sécurité (SC-900 / Security+...)",
+      "org": "XXX",
+      "date": "20XX"
+    },
+    {
+      "name": "Certification IA (AI-900 / autre...)",
+      "org": "XXX",
+      "date": "20XX"
+    }
+  ]
+}

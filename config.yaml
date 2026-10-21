@@ -7,19 +7,19 @@ title: aafu theme
 theme: aafu
 
 params:
-  author: Darshan Baral
-  description: Website title
+  author: Mathieu Nabonne
+  description: Mathieu personnal Website
   copyright: powered by [hugo](https://gohugo.io/)
   theme:
-    mainTheme: dark
+    mainTheme: null
     showAttribute: true
     singlePage: false
   accordion:
     - item: about_me
       expand: true # only the first `expand: true` will take effect
+    - item: certifications
     - item: experiences
     - item: education
-    - item: publications
     - item: projects
     - item: skills
       panel_id: skill-panel

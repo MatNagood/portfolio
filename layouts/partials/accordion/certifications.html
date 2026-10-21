@@ -1,0 +1,7 @@
+{{ range hugo.Data.certifications.list }}
+<p class="indent-8 mb-2">
+  <strong>{{ markdownify .name }}</strong>
+  {{- with .org }} — {{ markdownify . }}{{ end }}
+  {{- with .date }} ({{ markdownify . }}){{ end }}
+</p>
+{{ end }}

@@ -1,0 +1,31 @@
+{
+  "title": "Experiences",
+  "icon": "bi bi-briefcase",
+  "list": [
+    {
+      "position": "Technicien Cloud",
+      "dates": "2025 - Present",
+      "company": "Orange"
+    },
+    {
+      "position": "Technicien réseau WAN référent",
+      "dates": "2021 - 2025",
+      "company": "Orange"
+    },
+    {
+      "position": "Technicien résau WAN",
+      "dates": "2015 - 2021",
+      "company": "Orange"
+    },
+    {
+      "position": "Technicien service client",
+      "dates": "2013 - 2015",
+      "company": "Alyotech"
+    },
+    {
+      "position": "Technicien d'intervention réseau",
+      "dates": "2012 - 2013",
+      "company": "Orange"
+    }
+  ]
+}

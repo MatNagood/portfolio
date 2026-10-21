@@ -1,0 +1,26 @@
+{
+  "title": "Projects",
+  "icon": "bi bi-kanban",
+  "list": [
+    {
+      "title": "Site CV (Hugo + Terraform + Azure)",
+      "url": "#",
+      "description": "Site statique généré avec Hugo, déployé en CI/CD GitHub Actions + Azure Static Web Apps, infra provisionnée en Terraform."
+    },
+    {
+      "title": "Homelab self-hosted",
+      "url": "#",
+      "description": "Serveurs Debian, conteneurs Docker, services auto-hébergés (media stack, monitoring)."
+    },
+    {
+      "title": "Cluster Kubernetes (k3s)",
+      "url": "#",
+      "description": "Cluster k3s maison pour pratiquer l'administration Kubernetes (RBAC, Helm, observabilité)."
+    },
+    {
+      "title": "Automatisation (Bash + Ansible)",
+      "url": "#",
+      "description": "Playbooks Ansible et scripts bash pour provisionner et maintenir le homelab."
+    }
+  ]
+}

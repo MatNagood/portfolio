@@ -714,6 +714,9 @@
   .grid {
     display: grid;
   }
+  .table {
+    display: table;
+  }
   .h-full {
     height: 100%;
   }

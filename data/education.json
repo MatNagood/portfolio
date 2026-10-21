@@ -1,0 +1,21 @@
+{
+  "title": "Formations",
+  "icon": "bi bi-mortarboard",
+  "list": [
+   {
+      "degree": "Licence professionnelle - Réseaux et télécommunications option intégration des systèmes voies/données",
+      "college": "Université de Pau et des Pays de l'Adour",
+      "dates": "2013"
+    },
+    {
+      "degree": "BTS - Informatique et Réseau pour l’Industrie et les Services",
+      "college": "Lycée Gaston Crampe",
+      "dates": "2012"
+    },
+    {
+      "degree": "Baccalauréat - STI Génie Électrotechnique",
+      "college": "Lycée Gaston Crampe",
+      "dates": "2010"
+    }
+  ]
+}
