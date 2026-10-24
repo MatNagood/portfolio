@@ -1,0 +1,6 @@
+{{ range hugo.Data.skills.groups }}
+<p class="mb-1 text-gray-600 dark:text-gray-300">
+  <span class="font-semibold"><i class="{{ .icon }}"></i> {{ .name }} :</span>
+  {{ delimit .items ", " }}
+</p>
+{{ end }}

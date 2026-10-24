@@ -1,11 +1,11 @@
 {{ range hugo.Data.certifications.categories }}
 <div class="mb-3">
-  <h4 class="mb-1 font-semibold">
+  <p class="mb-0 font-semibold">
     <i class="{{ .icon }}"></i> {{ .name }}
-  </h4>
+  </p>
   {{ range .list }}
-  <p class="ms-4 mb-1">
-    <strong>{{ .name }}</strong> &mdash; {{ .org }}
+  <p class="mb-0 ms-4 text-gray-600 dark:text-gray-300">
+    <span class="font-semibold">{{ .name }}</span> &mdash; {{ .org }}
   </p>
   {{ end }}
 </div>

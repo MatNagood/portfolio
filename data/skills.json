@@ -2,12 +2,12 @@
   "title": "Compétences",
   "panelId": "skill-panel",
   "icon": "bi bi-list-check",
-  "list": [
-    { "skill": "Linux (administration, bash)", "skillrating": 85 },
-    { "skill": "Cloud : Azure, AWS, GCP", "skillrating": 65 },
-    { "skill": "Conteneurs : Docker, Kubernetes", "skillrating": 55 },
-    { "skill": "Terraform / Infrastructure as Code", "skillrating": 45 },
-    { "skill": "Ansible / Automatisation", "skillrating": 40 },
-    { "skill": "Sécurité des systèmes d'information", "skillrating": 60 }
+  "groups": [
+    { "name": "Cloud & Infra", "icon": "bi bi-cloud", "items": ["Azure", "Terraform"] },
+    { "name": "Linux", "icon": "bi bi-terminal", "items": ["Linux", "Bash"] },
+    { "name": "Conteneurs", "icon": "bi bi-box", "items": ["Docker", "Docker Compose", "Kubernetes"] },
+    { "name": "Monitoring", "icon": "bi bi-bar-chart", "items": ["Grafana", "Prometheus"] },
+    { "name": "Sécurité", "icon": "bi bi-shield-lock", "items": ["CrowdSec", "Sécurité SI"] },
+    { "name": "Langues", "icon": "bi bi-translate", "items": ["Anglais (technique)"] }
   ]
 }

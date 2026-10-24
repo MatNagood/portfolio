@@ -1,0 +1,8 @@
+{{ range hugo.Data.projects.list }}
+<div class="mb-3">
+  <p class="mb-0 font-semibold">
+    {{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+  </p>
+  <p class="mb-0 text-gray-600 dark:text-gray-300">{{ .description | markdownify }}</p>
+</div>
+{{ end }}

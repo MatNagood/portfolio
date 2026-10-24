@@ -3,24 +3,24 @@
   "icon": "bi bi-kanban",
   "list": [
     {
-      "title": "Site Portfolio (Hugo + Terraform + Azure)",
-      "url": "#",
-      "description": "Site statique généré avec Hugo, déployé en CI/CD GitHub Actions + Azure Static Web Apps, infra provisionnée en Terraform."
+      "title": "Site personnel (Hugo + Terraform + Azure)",
+      "url": "https://github.com/MatNagood/portfolio",
+      "description": "Site statique généré avec Hugo, déployé en CI/CD **GitHub Actions** + **Azure Static Web Apps**, infra provisionnée en **Terraform**."
     },
     {
       "title": "Serveur auto-hébergé",
       "url": "#",
-      "description": "Serveurs Debian, conteneurs Docker, services auto-hébergés : media stack, serveur de fichiers, monitoring (grafana + prometheus)."
+      "description": "Serveur Debian, conteneurs Docker avec utilisation de **docker compose**, services auto-hébergés : media stack, serveur de fichiers, monitoring : **grafana + prometheus**."
     },
     {
       "title": "Cluster Kubernetes (k3s)",
       "url": "#",
-      "description": "Cluster k3s maison pour pratiquer l'administration Kubernetes (RBAC, Helm, observabilité)."
+      "description": "Cluster k3s maison pour pratiquer l'administration **Kubernetes** (RBAC, Helm, observabilité)."
     },
     {
       "title": "Agent IA Hermès",
       "url": "#",
-      "description": "Agent IA déployé sur un Raspberry Pi pour tester des fonctionnalités IA et maintenir le site portfolio."
+      "description": "**Agent IA** déployé sur un Raspberry Pi pour tester des fonctionnalités IA et maintenir le site portfolio."
     }
   ]
 }
