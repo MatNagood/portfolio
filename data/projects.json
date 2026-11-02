@@ -18,9 +18,9 @@
       "description": "Cluster k3s maison pour pratiquer l'administration **Kubernetes** (RBAC, Helm, observabilité)."
     },
     {
-      "title": "Agent IA Hermès",
+      "title": "Agent IA sur Raspberry Pi",
       "url": "#",
-      "description": "**Agent IA** déployé sur un Raspberry Pi pour tester des fonctionnalités IA et maintenir le site portfolio."
+      "description": "**Agent IA** déployé sur un Raspberry Pi : automatisation de tâches, liaison avec les services auto-hébergés et le site portfolio."
     }
   ]
 }

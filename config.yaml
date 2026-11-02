@@ -1,5 +1,5 @@
 baseURL: /
-locale: en-us
+locale: fr-fr
 build:
   writeStats: true
 title: "Mathieu // Site personnel"
@@ -8,7 +8,7 @@ theme: aafu
 
 params:
   author: Mathieu 
-  description: Mathieu personnal Website
+  description: Mathieu - Technicien Cloud & Linux. Site personnel, projets et certifications.
   copyright: powered by [hugo](https://gohugo.io/)
   theme:
     mainTheme: null
